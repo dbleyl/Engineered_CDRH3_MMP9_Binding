@@ -13,7 +13,7 @@
   Two pretrained LPLMs were used for extracting the features from the CDRH3 sequences: the Evolutionary Scale Modeling (ESM)-2 models (with 650B, 3B, and 15B parameters) and the AntiBERTy model with 26M parameters. Embeddings extracted for each aminoacid position in CDRH3 were padded to the same length and used to train a downstream LSTM model to predict binding affinity with MMP-9.
 
 ![image](https://github.com/user-attachments/assets/50ecf7c8-1995-4cd6-a2eb-945cc6b6114a)
-# cdrh3-mmpg-inference.py
+# cdrh3-mmp9-inference.py
   The Python module 'cdrh3-mmp9-inference.py' contains the code to infer the binding affinity by passing the CDRH3 sequences and the pretrained PLM to use. The inference returned will contain the CDRH3 sequence, corresponding binding affinity (positive or negative), and the confidence level.
 # The notebook Syn_CDRH3_MMP9_Binding_Inference.ipynb
   This Python notebook contains the interactive code to predict the binding affinity between the synthesized CDRH3 and mmp9 inhibitors. Please click the link (https://colab.research.google.com/drive/1n39KvMrcl4VOJZDpcpf5mjF9f7WAt2rE?usp=sharing) to access the notebook. Please follow the instructions on the notebook.
