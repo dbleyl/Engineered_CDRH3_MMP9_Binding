@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "engineered-cdrh3-mmp9-binding"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tensorflow = "^2.18.0"
+pandas = "^2.2.3"
+transformers = "^4.46.2"
+pytorch = "^1.0.2"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.29.0"
+ipywidgets = "^8.1.5"
+jupyterlab = "^4.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
